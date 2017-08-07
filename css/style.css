@@ -1,42 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
 html {
+	font-family: 'Arimo', sans-serif;
 	background: orange;
 }
+
 #blocpage {
-padding: 100px;
-width: 900px;
-margin: auto;
+	padding: 100px;
+	width: 900px;
+	margin: auto;
 }
 
 h1 {
-border-radius: 10px;
-background-color: green;
-text-align: center;
+	border-radius: 10px;
+	background-color: green;
+	text-align: center;
 }
 
-a{
-background-color: white;
-border-radius: 10px;
+.navbar > a, .navbar > a:visited, .navbar > a:link {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 8px 15px;
+	color: white;
+	transition: color 125ms;
+}
+
+.navbar > a:hover, .navbar > a:visited:hover, .navbar > a:link:hover {
+	color: black;
 }
 
 header {
-border-radius: 10px;
-margin: 50px;
-margin-top: auto;
-background-color: red;
-text-align: center;
+	border-radius: 10px;
+	margin: 50px;
+	margin-top: auto;
+	background-color: red;
+	text-align: center;
 }
 
 nav {
-border-radius: 10px;
-color: white;
-text-align: center;
-background-color: blue;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	background-color: blue;
 }
 
 section {
-border-radius: 10px;
-margin: 100px;
-margin-top: auto;
+	border-radius: 10px;
+	margin: 100px;
+	margin-top: auto;
 
-background-color: white;
+	background-color: white;
 }
